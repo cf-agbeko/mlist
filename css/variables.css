@@ -1,0 +1,60 @@
+/* =============================================
+   BLUEBERRY PALETTE — 配色直接抄
+   ============================================= */
+:root {
+  /* Core Palette */
+  --purple-mid:   #754A70;
+  --sage-green:   #86A88E;
+  --purple-deep:  #412B42;
+  --plum-dark:    #291E24;
+
+  /* Derived */
+  --purple-mid-20:  #754A7033;
+  --purple-mid-40:  #754A7066;
+  --sage-green-20:  #86A88E33;
+  --sage-green-60:  #86A88E99;
+  --plum-dark-90:   #291E24E6;
+
+  /* Text */
+  --text-primary:   #F0E8F0;
+  --text-secondary: #B8A8B8;
+  --text-muted:     #7A6A7A;
+  --text-accent:    #86A88E;
+
+  /* UI */
+  --bg-base:        var(--plum-dark);
+  --bg-card:        var(--purple-deep);
+  --bg-card-hover:  #4E3450;
+  --bg-input:       #1E1520;
+  --border:         #5A3A5A40;
+  --border-accent:  var(--purple-mid);
+
+  /* Status */
+  --status-watching:   #86A88E;
+  --status-completed:  #A88EA8;
+  --status-dropped:    #8E6A6A;
+  --status-plan:       #6A7A8E;
+  --status-paused:     #8E8A6A;
+
+  /* Spacing */
+  --radius-sm:  6px;
+  --radius-md:  12px;
+  --radius-lg:  20px;
+  --radius-xl:  32px;
+
+  /* Typography */
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body:    'DM Sans', system-ui, sans-serif;
+  --font-mono:    'DM Mono', monospace;
+
+  /* Shadows */
+  --shadow-card:  0 4px 24px #291E2466;
+  --shadow-modal: 0 24px 80px #291E24CC;
+  --glow-purple:  0 0 30px #754A7040;
+  --glow-green:   0 0 20px #86A88E30;
+
+  /* Transitions */
+  --ease-out:   cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in:    cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
